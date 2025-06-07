@@ -35,3 +35,4 @@ total=$(awk -v c="$reimb_core" -v m="$mileage" \
              'BEGIN { printf("%.2f", c + m) }')
 
 echo "$total"
+
